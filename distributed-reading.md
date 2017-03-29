@@ -1,6 +1,5 @@
 http://www.elidedbranches.com/2012/12/building-global-highly-available.html
 
-Lessons learned:
 ZooKeeper as a Service (a shared ZooKeeper cluster maintained by a centralized infrastructure team to support many different clients) is a risky proposition. It is easy for a misbehaving client to take down an entire cluster by flooding it with requests or making too many connections and without a working hard quota enforcement system clients can easily push too much data into ZooKeeper. Since ZooKeeper keeps all of its nodes in memory, a client writing huge numbers of nodes with a lot of data in each can cause ZooKeeper to garbage collect or run out of memory, bringing down the entire cluster.
 
 ZooKeeper has a few hard limits. Memory is a well-known limit, but another limit is the number of sockets for a server process (configured via the ulimit in *nix). If a node runs out of sockets due to too many client connections, it will basically cease to function without necessarily crashing. This is not surprising for anyone that has experienced this problem in other Java servers, but it is worth noting when scaling your cluster.
