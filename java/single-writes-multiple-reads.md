@@ -1,4 +1,4 @@
-# Single thread Writes, Multiple threads read and Memory Visibility
+# Memory Visibility: Single thread writes, multiple threads read
 
 Changes made by one thread may never be visibile to another thread in the absence of all constructs which provide consitent view guarantees provided by the **Java memory model**.
 
