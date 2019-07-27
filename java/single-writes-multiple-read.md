@@ -34,19 +34,19 @@ public class OneThreadWritesMultipleReadAndMemoryErrors {
         public void run() {
             while (subject == A) {
             }
-            System.out.println("value");
+            System.out.println("A");
 
             while (subject == B) {
             }
-            System.out.println("value 2");
+            System.out.println("B");
 
             while (subject == A) {
             }
-            System.out.println("value");
+            System.out.println("A");
 
             while (subject == B) {
             }
-            System.out.println("value 2");
+            System.out.println("B);
         }
     }
 
