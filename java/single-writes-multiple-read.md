@@ -46,7 +46,7 @@ public class OneThreadWritesMultipleReadAndMemoryErrors {
 
             while (subject == B) {
             }
-            System.out.println("B);
+            System.out.println("B");
         }
     }
 
