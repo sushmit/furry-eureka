@@ -1,6 +1,6 @@
 # Memory Visibility: Single thread writes, multiple threads read
 
-Changes made by one thread may never be visibile to another thread in the absence of all constructs which provide consitent view guarantees provided by the **Java memory model**.
+Changes made by one thread may never be visibile to another thread in the absence of all constructs which provide consistent view guarantees provided by the **Java memory model**.
 
 The following program does not end. Ever. One way to fix the issue is to declare `subject` as `volatile`.
 
