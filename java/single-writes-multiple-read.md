@@ -70,6 +70,6 @@ public class OneThreadWritesMultipleReadAndMemoryErrors {
 
 ### References
 * [Memory Visibility explained under java.util.concurrent pacakge](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/concurrent/package-summary.html#MemoryVisibility)
-* [_happens-before_ relation order](https://docs.oracle.com/javase/specs/jls/se8/html/jls-17.html#jls-17.4.5)
+* [_happens-before_ order](https://docs.oracle.com/javase/specs/jls/se8/html/jls-17.html#jls-17.4.5)
 * https://www.callicoder.com/java-concurrency-issues-and-thread-synchronization/
 * https://en.wikipedia.org/wiki/Java_memory_model
