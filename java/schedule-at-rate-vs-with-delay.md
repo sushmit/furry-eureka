@@ -2,7 +2,7 @@
 
 <code>ScheduledExecutorService</code> ensures that tasks to do overlap.
 
-If the scheduled task takes more time than input rate, then <code>scheduleAtFixedRate</code> keeps bulding queue.
+If the scheduled task takes more time than input rate, then <code>scheduleAtFixedRate</code> keeps building queue.
 
 ```java
 
