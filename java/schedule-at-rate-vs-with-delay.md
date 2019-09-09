@@ -1,8 +1,8 @@
 # scheduleAtFixedRate vs scheduleWithFixedDelay
 
-<code>ScheduledExecutorService</code> ensures that tasks to do **not** overlap.
+`ScheduledExecutorService` ensures that tasks to do **not** overlap.
 
-If the scheduled task takes more time than input rate, then <code>scheduleAtFixedRate</code> keeps building queue.
+If the scheduled task takes more time than input rate, then `scheduleAtFixedRate` keeps building queue.
 
 ```java
 
