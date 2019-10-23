@@ -22,7 +22,7 @@ git log --pretty=email --patch-with-stat --reverse -- path/to/fileOrDirectoryToC
 git merge --abort
 ```
 
-## 3. remove untracked items
+## 4. remove untracked items
 ```bash
 ## files
 git clean -fX
