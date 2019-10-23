@@ -16,3 +16,16 @@ git log --pretty=email --patch-with-stat --reverse -- path/to/fileOrDirectoryToC
 ```
 
 > taken from <http://gbayer.com/development/moving-files-from-one-git-repository-to-another-preserving-history/>
+
+## 3. abort merge
+```bash
+git merge --abort
+```
+
+## 3. remove untracked items
+```bash
+## files
+git clean -fX
+## directories
+git clean -fd
+```
